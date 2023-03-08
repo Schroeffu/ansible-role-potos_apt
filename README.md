@@ -19,7 +19,7 @@ playbook](./molecule/default/converge.yml) as a starting point:
   tasks:
     - name: run role
       ansible.builtin.include_role:
-        name: 'ansible-role-potos_template'
+        name: 'ansible-role-potos_apt_sources'
 ```
 
 ## Role Variables
@@ -40,7 +40,7 @@ potos_template_example_list: []
 Another option is to use `ansible-doc` to read the argument specification:
 
 ```sh
-ansible-doc --type role -r . main ansible-role-potos_template
+ansible-doc --type role -r . main ansible-role-potos_apt_sources
 ```
 
 ## Requirements
