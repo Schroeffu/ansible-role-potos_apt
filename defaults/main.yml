@@ -2,18 +2,18 @@
 
 ### Example to add apt keys
 # potos_apt_key:
-#  microsoft-packages:
-#    url: https://packages.microsoft.com/keys/microsoft.asc
-#    filename: microsoft-packages
-#  chrome-signing-key:
-#    url: https://dl.google.com/linux/linux_signing_key.pub
-#    filename: chrome-signing-key
+#   microsoft-packages:
+#     url: https://packages.microsoft.com/keys/microsoft.asc
+#     filename: microsoft-packages
+#   chrome-signing-key:
+#     url: https://dl.google.com/linux/linux_signing_key.pub
+#     filename: chrome-signing-key
 
 ### Example to remove apt keys, by Key ID's
 # potos_apt_key_remove:
-#  - EB3E94ADBE1229CF
-#  - A040830F7FAC5991
-#  - 7721F63BD38B4796
+#   - EB3E94ADBE1229CF
+#   - A040830F7FAC5991
+#   - 7721F63BD38B4796
 
 ### Example to add apt repoistories
 # potos_apt_repository:
