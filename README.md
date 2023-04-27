@@ -21,7 +21,7 @@ Examples see below.
 
 ## Role Variable Defaults
 
-There aren't default vars defined for this Role. Please have a look at our examples below.
+There aren't default vars defined for this Role. Please have a look at our examples below or check out `default/main.yml` for even more details.
 
 ## Role Variables Examples
 
