@@ -3,3 +3,5 @@
 - name: Prepare
   hosts: all
   gather_facts: yes
+
+  tasks: []
