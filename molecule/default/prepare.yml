@@ -4,4 +4,8 @@
   hosts: all
   gather_facts: yes
 
-  tasks: []
+  tasks:
+    - name: install required gnupg, for apt gpg keys
+      ansible.builtin.apt:
+        name: gnupg
+        state: present
