@@ -19,4 +19,4 @@
   tasks:
     - name: run role
       ansible.builtin.include_role:
-        name: "ansible-role-potos_apt_sources"
+        name: "ansible-role-potos_apt"
