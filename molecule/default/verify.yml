@@ -8,6 +8,7 @@
     - name: check if msedge is installed via checking its version command
       ansible.builtin.command: /opt/microsoft/msedge/msedge --version
       register: out
+      changed_when: false
     - name: Print return information from the previous task
       ansible.builtin.debug:
         var: result
