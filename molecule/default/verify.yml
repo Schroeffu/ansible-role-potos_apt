@@ -6,8 +6,7 @@
 
   tasks:
     - name: check if msedge is installed via checking its version command
-      ansible.builtin.shell:
-        cmd: /opt/microsoft/msedge/msedge --version
+      ansible.builtin.command: /opt/microsoft/msedge/msedge --version
       register: out
     - name: Print return information from the previous task
       ansible.builtin.debug:
