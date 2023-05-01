@@ -13,3 +13,7 @@
       ansible.builtin.apt:
         name: apt-transport-https
         state: present
+    - name: install python3-certifi
+      ansible.builtin.apt:
+        name: python3-certifi
+        state: present
