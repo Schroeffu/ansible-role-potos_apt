@@ -9,7 +9,7 @@
       ansible.builtin.apt:
         name: gnupg
         state: present
-    - name: install apt-transport-http
+    - name: install apt-transport-https
       ansible.builtin.apt:
-        name: apt-transport-http
+        name: apt-transport-https
         state: present
